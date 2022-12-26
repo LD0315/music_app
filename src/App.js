@@ -4,9 +4,9 @@ import './App.css';
 function App() {
 
   const [currentMusicDetails, setCurrentMusicDetails] = useState({
-    songName: 'Sukidakara',
-    songArtist: 'YUIKA',
-    songSrc: './Assets/songs/Sukidakara.mp3',
+    songName: 'Tadaima Home',
+    songArtist: 'Hiragi Minami',
+    songSrc: './Assets/songs/Tadaima Hōmu.mp3',
     songAvatar: './Assets/Images/image1.jpg'
   })
   // UseStates variables 
@@ -49,21 +49,45 @@ function App() {
 
   const musicAPI = [
     {
+      songName: 'Tadaima Home',
+      songArtist: 'Hiragi Minami',
+      songSrc: './Assets/songs/Tadaima Hōmu.mp3',
+      songAvatar: './Assets/Images/image1.jpg'
+    },
+    {
+      songName: 'Amanojaku',
+      songArtist: 'Akie',
+      songSrc: './Assets/songs/Amanojaku.mp3',
+      songAvatar: './Assets/Images/image1.jpg'
+    },
+    {
       songName: 'Sukidakara',
-      songArtist: 'YUIKA',
+      songArtist: 'Yuika',
       songSrc: './Assets/songs/Sukidakara.mp3',
       songAvatar: './Assets/Images/image1.jpg'
     },
     {
       songName: 'Yubiwa To Aikagi',
-      songArtist: 'HAZZIE',
+      songArtist: 'Hazzie',
       songSrc: './Assets/songs/Hazzie_feat._AI_-_Yubiwa_To_Aikagi.mp3',
       songAvatar: './Assets/Images/image2.jpg'
     },
     {
       songName: 'Rain',
-      songArtist: 'CHATA',
+      songArtist: 'Chata',
       songSrc: './Assets/songs/Rain_chata.mp3',
+      songAvatar: './Assets/Images/image3.jpg'
+    },
+    {
+      songName: 'Sekai Wa Koi Ni Ochiteiru',
+      songArtist: 'Chico',
+      songSrc: './Assets/songs/SekaiWaKoiNiOchiteiru.mp3',
+      songAvatar: './Assets/Images/image3.jpg'
+    },
+    {
+      songName: 'Baby I Love You',
+      songArtist: 'Tee',
+      songSrc: './Assets/songs/BabyILoveYou.webm',
       songAvatar: './Assets/Images/image3.jpg'
     }
   ]
@@ -137,7 +161,7 @@ function App() {
   return (
     <>
     <div className="container">
-      <audio src='./Assets/songs/Sukidakara.mp3' ref={currentAudio} onEnded={handleNextSong}
+      <audio src='./Assets/songs/Tadaima Hōmu.mp3' ref={currentAudio} onEnded={handleNextSong}
       onTimeUpdate={handleAudioUpdate}></audio>
       <video src={vidArray[videoIndex]} loop muted autoPlay className="backgroundVideo"></video>
       <div className="blackScreen"></div>
