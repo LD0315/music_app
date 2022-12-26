@@ -7,7 +7,7 @@ function App() {
     songName: 'Tadaima Home',
     songArtist: 'Hiragi Minami',
     songSrc: './Assets/songs/Tadaima Hōmu.mp3',
-    songAvatar: './Assets/Images/image1.jpg'
+    songAvatar: './Assets/Images/totoro.jpeg'
   })
   // UseStates variables 
   const [audioProgress, setAudioProgress] = useState(0);
@@ -52,43 +52,43 @@ function App() {
       songName: 'Tadaima Home',
       songArtist: 'Hiragi Minami',
       songSrc: './Assets/songs/Tadaima Hōmu.mp3',
-      songAvatar: './Assets/Images/image1.jpg'
+      songAvatar: './Assets/Images/totoro.jpeg'
     },
     {
       songName: 'Amanojaku',
       songArtist: 'Akie',
       songSrc: './Assets/songs/Amanojaku.mp3',
-      songAvatar: './Assets/Images/image1.jpg'
+      songAvatar: './Assets/Images/chihiro.jpeg'
     },
     {
       songName: 'Sukidakara',
       songArtist: 'Yuika',
       songSrc: './Assets/songs/Sukidakara.mp3',
-      songAvatar: './Assets/Images/image1.jpg'
+      songAvatar: './Assets/Images/kiki.jpg'
     },
     {
       songName: 'Yubiwa To Aikagi',
       songArtist: 'Hazzie',
       songSrc: './Assets/songs/Hazzie_feat._AI_-_Yubiwa_To_Aikagi.mp3',
-      songAvatar: './Assets/Images/image2.jpg'
+      songAvatar: './Assets/Images/oceanwave.jpeg'
     },
     {
       songName: 'Rain',
       songArtist: 'Chata',
       songSrc: './Assets/songs/Rain_chata.mp3',
-      songAvatar: './Assets/Images/image3.jpg'
+      songAvatar: './Assets/Images/poppyhill.jpeg'
     },
     {
       songName: 'Sekai Wa Koi Ni Ochiteiru',
       songArtist: 'Chico',
       songSrc: './Assets/songs/SekaiWaKoiNiOchiteiru.mp3',
-      songAvatar: './Assets/Images/image3.jpg'
+      songAvatar: './Assets/Images/howlscastle.jpeg'
     },
     {
       songName: 'Baby I Love You',
       songArtist: 'Tee',
       songSrc: './Assets/songs/BabyILoveYou.webm',
-      songAvatar: './Assets/Images/image3.jpg'
+      songAvatar: './Assets/Images/mononoke.jpeg'
     }
   ]
 
@@ -147,8 +147,8 @@ function App() {
 
   }
 
-  const vidArray = ['./Assets/Videos/video1.mp4', './Assets/Videos/video2.mp4', './Assets/Videos/video3.mp4',
-  './Assets/Videos/video4.mp4', './Assets/Videos/video5.mp4', './Assets/Videos/video6.mp4'];
+  const vidArray = ['./Assets/Videos/video2.mp4', './Assets/Videos/night_sky.mp4', './Assets/Videos/sunset.mp4',
+  './Assets/Videos/night.mp4', './Assets/Videos/water.mp4', './Assets/Videos/video1.mp4'];
 
   const handleChangeBackground = () => {
     if (videoIndex >= vidArray.length - 1) {
