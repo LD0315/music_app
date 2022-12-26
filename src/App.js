@@ -4,9 +4,9 @@ import './App.css';
 function App() {
 
   const [currentMusicDetails, setCurrentMusicDetails] = useState({
-    songName: 'Chasing',
-    songArtist: 'NEFFEX',
-    songSrc: './Assets/songs/Chasing - NEFFEX.mp3',
+    songName: 'Sukidakara',
+    songArtist: 'YUIKA',
+    songSrc: './Assets/songs/Sukidakara.mp3',
     songAvatar: './Assets/Images/image1.jpg'
   })
   // UseStates variables 
@@ -49,21 +49,21 @@ function App() {
 
   const musicAPI = [
     {
-      songName: 'Chasing',
-      songArtist: 'NEFFEX',
-      songSrc: './Assets/songs/Chasing - NEFFEX.mp3',
+      songName: 'Sukidakara',
+      songArtist: 'YUIKA',
+      songSrc: './Assets/songs/Sukidakara.mp3',
       songAvatar: './Assets/Images/image1.jpg'
     },
     {
-      songName: 'Catch Me If I Fall',
-      songArtist: 'TEGNENT',
-      songSrc: './Assets/songs/Catch Me If I Fall - NEFFEX.mp3',
+      songName: 'Yubiwa To Aikagi',
+      songArtist: 'HAZZIE',
+      songSrc: './Assets/songs/Hazzie_feat._AI_-_Yubiwa_To_Aikagi.mp3',
       songAvatar: './Assets/Images/image2.jpg'
     },
     {
-      songName: 'Inspired (Clean)',
-      songArtist: 'NEFFEX',
-      songSrc: './Assets/songs/Inspired (Clean) - NEFFEX.mp3',
+      songName: 'Rain',
+      songArtist: 'CHATA',
+      songSrc: './Assets/songs/Rain_chata.mp3',
       songAvatar: './Assets/Images/image3.jpg'
     }
   ]
@@ -137,7 +137,7 @@ function App() {
   return (
     <>
     <div className="container">
-      <audio src='./Assets/songs/Chasing - NEFFEX.mp3' ref={currentAudio} onEnded={handleNextSong}
+      <audio src='./Assets/songs/Sukidakara.mp3' ref={currentAudio} onEnded={handleNextSong}
       onTimeUpdate={handleAudioUpdate}></audio>
       <video src={vidArray[videoIndex]} loop muted autoPlay className="backgroundVideo"></video>
       <div className="blackScreen"></div>
