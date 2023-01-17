@@ -1,0 +1,13 @@
+{
+  "main.css": "/music_player/static/css/main.5fe87ede.chunk.css",
+  "main.js": "/music_player/static/js/main.313dc641.chunk.js",
+  "main.js.map": "/music_player/static/js/main.313dc641.chunk.js.map",
+  "static/js/1.c199c0ff.chunk.js": "/music_player/static/js/1.c199c0ff.chunk.js",
+  "static/js/1.c199c0ff.chunk.js.map": "/music_player/static/js/1.c199c0ff.chunk.js.map",
+  "runtime~main.js": "/music_player/static/js/runtime~main.8333c4a7.js",
+  "runtime~main.js.map": "/music_player/static/js/runtime~main.8333c4a7.js.map",
+  "static/css/main.5fe87ede.chunk.css.map": "/music_player/static/css/main.5fe87ede.chunk.css.map",
+  "index.html": "/music_player/index.html",
+  "precache-manifest.3cb305b42e0941a8ca7962809cdf3e8b.js": "/music_player/precache-manifest.3cb305b42e0941a8ca7962809cdf3e8b.js",
+  "service-worker.js": "/music_player/service-worker.js"
+}
