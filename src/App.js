@@ -148,7 +148,7 @@ function App() {
 
   }
 
-  const vidArray = ['./Assets/Videos/video2.mp4', './Assets/Videos/night_sky.mp4', './Assets/Videos/sunset.mp4',
+  const vidArray = ['./Assets/Videos/paris.mp4', './Assets/Videos/night_sky.mp4', './Assets/Videos/sunset.mp4',
   './Assets/Videos/rain.mp4', './Assets/Videos/sunrise.mp4', './Assets/Videos/candle.mp4'];
 
   const handleChangeBackground = () => {
