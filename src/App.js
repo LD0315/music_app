@@ -149,7 +149,7 @@ function App() {
   }
 
   const vidArray = ['./Assets/Videos/video2.mp4', './Assets/Videos/night_sky.mp4', './Assets/Videos/sunset.mp4',
-  './Assets/Videos/night.mp4', './Assets/Videos/water.mp4', './Assets/Videos/video1.mp4'];
+  './Assets/Videos/rain.mp4', './Assets/Videos/sunrise.mp4', './Assets/Videos/candle.mp4'];
 
   const handleChangeBackground = () => {
     if (videoIndex >= vidArray.length - 1) {
